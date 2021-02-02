@@ -1,0 +1,31 @@
+Last login: Mon Oct  9 21:49:45 on ttys000
+Aurel:~ aureliahaas$ cd /Users/aureliahaas/eclipse-workspace/lookup/src/
+Aurel:src aureliahaas$ gcc lookup.c -o lookup
+Aurel:src aureliahaas$ ./lookup NamesIDs.txt marks.txt Tait
+The following record was found:
+Name: Suzi Tait
+Student ID: 2519
+Student Grade: 82
+Aurel:src aureliahaas$ ./lookup NamesIDs.txt marks.txt Mushrush
+The following record was found:
+Name: Felicita Mushrush
+Student ID: 2825
+Student Grade: 76
+Aurel:src aureliahaas$ ./lookup NamesIDs.txt marks.txt Daggett
+The following record was found:
+Name: Yuonne Daggett
+Student ID: 2029
+Student Grade: 74
+Aurel:src aureliahaas$ ./lookup NamesIDs.txt marks.txt Spece
+The following record was found:
+Name: Matilde Spece
+Student ID: 2917
+Student Grade: 68
+Aurel:src aureliahaas$ ./lookup NamesIDs.txt marks.txt Aylor
+The following record was found:
+Name: Francene Aylor
+Student ID: 2728
+Student Grade: 72
+Aurel:src aureliahaas$ ./lookup NamesIDs.txt marks.txt foo
+No record found for student with last name foo.
+Aurel:src aureliahaas$ 
